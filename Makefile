@@ -1,13 +1,21 @@
+ifdef SystemRoot
+	RM = del /Q /F
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -f
+   endif
+endif
+
 package:
 	cpack package/elasticsearch.nuspec
 
 install:
-	cinst -y elasticsearch --version=6.0.0 -source '.;chocolatey'
+	cinst -y elasticsearch -source '.;chocolatey'
 
 uninstall:
-	cuninst elasticsearch --version=6.0.0
+	cuninst elasticsearch
 
 clean:
-	rm *.nupkg
+	$(RM) *.nupkg
 
 .PHONY: package install uninstall clean

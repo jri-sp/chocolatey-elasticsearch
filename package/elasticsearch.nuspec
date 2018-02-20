@@ -3,24 +3,24 @@
   <metadata>
     <id>elasticsearch</id>
     <title>Elasticsearch</title>
-    <version>6.0.0</version>
+    <version>6.2.1</version>
     <authors>https://github.com/elasticsearch/elasticsearch/contributors</authors>
     <owners>Toby McLaughlin</owners>
     <summary>Distributed, scalable, real-time search and analytics engine.</summary>
     <description>Distributed, scalable, real-time search and analytics engine.</description>
     <projectUrl>https://www.elastic.co/products/elasticsearch</projectUrl>
     <tags>search REST analytics metrics</tags>
-    <licenseUrl>https://github.com/elasticsearch/elasticsearch/blob/v6.0.0/LICENSE.txt</licenseUrl>
+    <licenseUrl>https://github.com/elasticsearch/elasticsearch/blob/v6.2.1/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://s10.postimg.org/41mrwi0ed/elasticsearch_logo_64x64.png</iconUrl>
-    <docsUrl>https://www.elastic.co/guide/en/elasticsearch/reference/6.0/index.html</docsUrl>
-    <releaseNotes>https://www.elastic.co/guide/en/elasticsearch/reference/6.0/release-notes-6.0.0.html</releaseNotes>
+    <docsUrl>https://www.elastic.co/guide/en/elasticsearch/reference/6.2/index.html</docsUrl>
+    <releaseNotes>https://www.elastic.co/guide/en/elasticsearch/reference/6.2/release-notes-6.2.1.html</releaseNotes>
     <projectSourceUrl>https://github.com/elastic/elasticsearch</projectSourceUrl>
     <packageSourceUrl>https://github.com/elastic/chocolatey-elasticsearch</packageSourceUrl>
     <mailingListUrl>https://www.elastic.co/community</mailingListUrl>
     <bugTrackerUrl>https://github.com/elastic/elasticsearch/issues</bugTrackerUrl>
     <dependencies>
-      <dependency id="server-jre" version="8.0.0"/>
+      <dependency id="server-jre8" version="8.0.161"/>
     </dependencies>
   </metadata>
 </package>

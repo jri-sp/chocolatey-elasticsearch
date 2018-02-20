@@ -1,3 +1,23 @@
 Build a Chocolatey package of Elasticsearch.
 
-Run `cpack package\elasticsearch.nuspec` from a Windows shell, or `make` from a POSIX shell.
+## Pre-reqs
+
+ - [PowerShell](https://github.com/PowerShell/PowerShell)
+ - [Chocolatey](https://chocolatey.org/install)
+ - `choco install make`
+
+## Build
+
+`make`
+
+## Install
+
+`make install`
+
+## Uninstall
+
+`make uninstall`
+
+## Clean
+
+`make clean`
