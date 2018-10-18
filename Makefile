@@ -13,7 +13,7 @@ install:
 	cinst -y elasticsearch -source '.;chocolatey'
 
 uninstall:
-	cuninst elasticsearch
+	cuninst -y elasticsearch
 
 clean:
 	$(RM) *.nupkg
